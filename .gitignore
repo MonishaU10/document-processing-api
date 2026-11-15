@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded documents
+uploads/*
+!uploads/.gitkeep
+
+# Database files and backups
+*.db
+*.sqlite3
+*.backup
